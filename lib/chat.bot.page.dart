@@ -107,7 +107,7 @@ class _ChatBotPageState extends State<ChatBotPage> {
                     Map<String, String> headers = {
                       "Content-Type": "application/json",
                       "Authorization":
-                          "Bearer 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",
+                          "Bearer open_api_key",
                     };
                     var prompt = {
                       "model": "gpt-4o-mini",
